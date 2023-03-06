@@ -1,0 +1,4 @@
+author: "ThelemaSSbot"
+delete-after: True
+changes:
+  - bugfix: "fixed butchering bread dog spawning error bread."
