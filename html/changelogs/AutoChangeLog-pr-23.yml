@@ -1,0 +1,4 @@
+author: "ThelemaSSbot"
+delete-after: True
+changes:
+  - qol: "Regal Rats produce meat on butchering, reducing player confusion."
