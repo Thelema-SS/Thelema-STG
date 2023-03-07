@@ -221,3 +221,26 @@
   Vishenka0704:
   - admin: Added a ticket into mentrohelp convertation. Better than say "write it
       to mentors".
+2023-03-07:
+  ThelemaSSbot:
+  - bugfix: There's no longer a vendor that will sometimes block one of the doors
+      to the interlink shuttle
+  - balance: Cult can no longer draw runes in survival pods.
+  - qol: Regal Rats produce meat on butchering, reducing player confusion.
+  - qol: made ORM easier to use
+  - spellcheck: fixed humanoid examine easter egg's pronoun usage
+  - rscadd: 'Added missing job titles to SR specific ghost roles: BMD, DS2, Freighter,
+      Port Tarkon and Ghost Cafe!'
+  - qol: SR Specific ghost roles will now be itemized and tracked inside your hour
+      window
+  - bugfix: fixed butchering bread dog spawning error bread.
+  - rscadd: Updated the bus ruin
+  - bugfix: You can no longer have multiple copies of the same heirloom theft objective
+  coiax:
+  - refactor: Refactored how eggs growing into chicks is implemented, and how the
+      number of chickens and chicks are tracked. It's now possible for admins to make
+      anything into an egg.
+  dessysalta, Cheshify:
+  - rscadd: Nanotrasen has added a martial artist gi to the AutoDrobe for those who
+      want to go even further byond.
+  - imageadd: Aforementioned gi sprites.
