@@ -26,17 +26,18 @@
 		return
 
 	var/message = ""
-	var/discord_url = CONFIG_GET(string/discord_link)
+
 	if(SSdiscord.is_ckey_verified(ckey))
 		message = "You are already verified. To replace a linked Discord account, contact the administrators."
 	else
 		var/cached_one_time_token = SSdiscord.reverify_cache[usr.ckey]
 		if(cached_one_time_token && cached_one_time_token != "")
-			message = "To verify, you must link your BYOND account on our Discord server. Join <a href='[discord_url]'>our discord server</a>, and insert the following token in the pop-up window:<br><br>[cached_one_time_token]"
+			message = "To verify, you must link your BYOND account on our Discord server. Join the following link <b>[CONFIG_GET(string/discord_link)]</b>, then go to #verification channel, and insert the following token in the pop-up window:<br><br>[cached_one_time_token]"
 		else
 			var/one_time_token = SSdiscord.get_or_generate_one_time_token_for_ckey(ckey)
 			SSdiscord.reverify_cache[usr.ckey] = one_time_token
-			message = "To verify, you must link your BYOND account on our Discord server. Join <a href='[discord_url]'>our discord server</a>, and insert the following token in the pop-up window:<br><br>\n[one_time_token]"
+			message = "To verify, you must link your BYOND account on our Discord server. Join the following link <b>[CONFIG_GET(string/discord_link)]</b>, then go to #verification channel, and insert the following token in the pop-up window:<br><br>\n[one_time_token]"
+	
 
 	//Now give them a browse window so they can't miss whatever we told them
 	var/datum/browser/window = new/datum/browser(usr, "discordverification", "Discord verification")
