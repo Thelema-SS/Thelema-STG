@@ -1,4 +1,0 @@
-author: "Vishenka0704"
-delete-after: True
-changes:
-  - code_imp: "now when you change code, build doesnt skip DM"
