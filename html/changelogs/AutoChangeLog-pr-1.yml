@@ -1,0 +1,9 @@
+author: "ThelemaSSbot"
+delete-after: True
+changes:
+  - bugfix: "Fix not being able to read in full bright areas"
+  - code_imp: "Tram crossing signal/platform logic improvements"
+  - qol: "adds service radio to jani/curator/chaplain/lawyer vendor"
+  - bugfix: "Organ harvesters now open and abort harvesting when losing power"
+  - bugfix: "Coffee cups are now correctly immune to becoming frozen by low temperature water vapour."
+  - bugfix: "Holosigns, like the atmos holofan, can no longer be frozen by low temperature water vapour."
