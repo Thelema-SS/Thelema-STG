@@ -1048,3 +1048,13 @@
   - admin: You can now optionally populate new lists created via vv. hit cancel to
       stop filling them up
   - bugfix: removed two decals from a space ruin.
+2023-03-21:
+  ThelemaSSbot:
+  - bugfix: Fix not being able to read in full bright areas
+  - code_imp: Tram crossing signal/platform logic improvements
+  - qol: adds service radio to jani/curator/chaplain/lawyer vendor
+  - bugfix: Organ harvesters now open and abort harvesting when losing power
+  - bugfix: Coffee cups are now correctly immune to becoming frozen by low temperature
+      water vapour.
+  - bugfix: Holosigns, like the atmos holofan, can no longer be frozen by low temperature
+      water vapour.
