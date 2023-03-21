@@ -1,0 +1,14 @@
+author: "ThelemaSSbot"
+delete-after: True
+changes:
+  - bugfix: "Plasmamen and golems (and androids, if you ever find one) can be implanted again."
+  - rscadd: "The Janitor Access key: Janitors can now be given departmental AA (one at a time) using the Keycard authentication device in Command offices. Use it if you need cleaning!"
+  - bugfix: "HoP's trim is no longer set to edit Supply access."
+  - balance: "9mm, 10mm, and other stuff can cause wounds."
+  - bugfix: "Tramstation xenobio now has slimes because apparently you need them? idk i'm not a science nerd"
+  - balance: "Wirecarp now properly shuts off NtNet remotely."
+  - balance: "Wirecarp now shows the source of a PDA that does an action."
+  - bugfix: "Wirecarp can no longer be used to see if Nukies exist through their networks."
+  - rscdel: "Removes Software downloading and communication Ntnet networks, as they were pretty worthless."
+  - bugfix: "Implants and items which you cannot drop will no longer be forced out of your character when you are kidnapped."
+  - bugfix: "Objects you try to take back from the kidnapping location as souvenirs will drop to the ground when you leave instead of being destroyed, except shirts and shoes (make sure to pick up your monographed synidcate T-shirt)."
