@@ -1083,3 +1083,22 @@
       and shoes (make sure to pick up your monographed synidcate T-shirt).
   Vishenka0704:
   - refactor: lewd items != genitals
+2023-03-23:
+  AnywayFarus:
+  - bugfix: fixed myself code
+  FireFlashie:
+  - bugfix: NODISMEMBER mobs can now be attacked by the flesh worm.
+  - bugfix: Stray Cargo Pod false alarms will once again play an announcement when
+      they occur.
+  - imageadd: New fire alarm
+  - code_imp: Fire alarm/fire door volume reduced, lights synchronized
+  - bugfix: heck suit no longer bugs out worn boots/gloves icons
+  - bugfix: Fixed missing food types for the meat clown, it is now meat and fruit.
+  - bugfix: Fixed stray white pixel in illegal rolling pin inhands.
+  - bugfix: Failing a kickflip no longer shows the chat messages to the wrong people.
+  - bugfix: ashwalker darkvision is now functional again
+  - bugfix: fixed a bug where you could be revived by the ashwalker tendril only to
+      still remain in crit afterwards
+  - bugfix: plumbing RCDs are now able to construct drains again
+  - bugfix: fixed engineering plumbing RCD not displaying the correct icons for liquid
+      input pumps and liquid output pumps
