@@ -1102,3 +1102,12 @@
   - bugfix: plumbing RCDs are now able to construct drains again
   - bugfix: fixed engineering plumbing RCD not displaying the correct icons for liquid
       input pumps and liquid output pumps
+2023-03-24:
+  ThelemaSSbot:
+  - rscadd: Nanotrasen has given the crew access to a brand new emergency shuttle!
+      Watch out for it's destructive entrance!
+  - rscadd: New space ruin that I have made, which adds some variety to space searching.
+  - bugfix: Tramstation now has the right amount of security and medical record computers
+  - imageadd: You can be a hammerhead shark
+  - balance: Hypospray now fits in the medical bandolier
+  - bugfix: fixes gondola meatslab not being able to be placed into the DNA infuser
