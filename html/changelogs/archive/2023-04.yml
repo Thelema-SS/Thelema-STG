@@ -1,3 +1,81 @@
+2023-04-03:
+  ThelemaSSbot:
+  - fix: Snails don't slip anymore.
+  - fix: Breathing pluoxium works again
+  - fix: Actually fixes re-attaching heads unintentionally sending brains to the gem 
+      room this time. For realsies.
+  - add: the victims of kneecapping will now scream.
+  - qol: you will no longer gain useless message, when you're harming someone in agro-grab 
+      in the head with their neck already slicen, instead of continuing killing them.
+  - qol: you will no longer gain irritating messages, when trying to stab someone 
+      in the eye, instead of just stabbing them with screwdriver.
+  - balance: Sentient Diseases (and diseases in general) can no longer roll Anacea, 
+      Haloperidol & Spaceacillin as their cure, however they've been replaced with chemicals 
+      that are either harder to make, or have larger drawbacks (such as putting you to sleep).
+  - fix: fixes floating point inaccuracies in numeric prefs
+  - fix: bodypart emissives will no longer be rendered on your character when 'Allow emissives' 
+      is unchecked in the character prefs.
+  - fix: unchecking 'Allow emissives' will now properly hide the genital emissive checkboxes 
+      in the character prefs.
+  - add: Adds in the Purpura Contract NIFSoft, a roleplay NIFSoft that gives the user fake 
+      rules to follow.
+  - add: Starting today, every crewmember will be able to partake in their founding father 
+      given right to have a firearm and to shoot that firearm for no reason.
+  - fix: Plates are no longer ephemeral when throwing at people.
+  - fix: fixes emissives blocker layering issue that was causing emissives on clothing to
+          not display at all
+  - add: A new meat-themed space ruin.
+  - fix: Organ box now actually requires coolant in order to work.
+  - fix: The missing table reinforcement for MetaStation's cargo office has been found
+  - fix: Ghouls, podpeople, and hemophages can now properly select digilegs.
+  - fix: admins may now send headset messages to silicon mobs as long as they have a radio
+  - add: Sleeping with a pillow restores more health.
+  - fix: Volume pump overclocking animation is much slower, no more headaches
+  - qol: Added screentips to the RPD; screentips and balloon alerts to many atmos machines 
+      and devices
+  - admin: Exiting the highlander delay window without selecting an option will no longer 
+      start highlander mode.
+  - fix: Maid in the mirror no longer drops a sprite-less suit.
+  - add: Reagent containers that splash on people when thrown (e.g. molotovs) now spill 
+      their contents on both target and turf. (This means that throwing molotovs with enough 
+      fuel spills fuel puddles, throwing beakers with acid spills acid on the floor, etc. etc.) 
+      Unfortunately, molotovs still lack the ability to ignite their own spilled fuel, but 
+      we'll get there one day.
+  - add: Added 'biscuit' cards! They can contain documents and can only be accessed by cracking 
+      them open, you can't close them back. Nanotrasen now stores spare ID safe codes in them.
+  - add: Placed paper cutters around the station. They're in Bridge, HoP office, Warden office, and Cargo.
+  - add: Now you can order paper cutters at cargo.
+  - fix: Now the paper slip is actually paper.
+  - imageadd: The paper slips sprite was slightly tweaked to have text lay more logically, 
+      added the corporate paper slip.
+  - del: Votes out some sussy emergency meeting code
+  - add: Re-added the unused combat medkit to the Blueshield locker and changed the 
+      briefcase to a secure one
+  - del: Removed some duplicate items from Void Raptor so the Blueshield doesn't 
+      have 2 crew pinpointers
+  - refactor: refactored Blueshield code
+  - qol: Bluespace tags are gone. The information contained within is still 
+      available in the same way, just in a more out-of-character format.
+  - fix: The prison on IceBox should no longer leak air as often.
+  - add: Researcher Anna Nomally has disappeared into space, carrying 20 anomaly cores. 
+      What could she be up to?
+  - fix: Traitors should be able to summon their satellite hacking supply kit.
+  - fix: Dark Matteor shouldn't crash on spawn and fail to arrive.
+  - fix: fixes telescreens showing static when reopening a camera
+  - ix: the 'natural wig' item will no longer show a broken icon when it mimics 
+      a hairstyle whose icon path something other than the default 'icons/mob/species/human/human_face.dmi'
+  - fix: Removes errant newscaster in the dorm maints of Tramstation.
+  - add: Clock Cult exists now! Become one in the "Antagonists" tab of the 
+      OPFOR equipment menu.
+  - balance: The BSA no longer requires a power coupling and its explosion 
+      power depends on how full its internal capacitors are.
+  - refactor: The BSA backend has been refactored.
+  - del: Removed Chaos Event System
+  - add: New! Intensity Credit Event System
+  - fix: Admins can actually cancel/reroll all random events
+  - balance: Frequency of all random events have been adjusted. To what? It is a mystery...
+  - add: Added security cameras to the five "default" shuttles
+  - add: Added camera telescreen to KiloStation Emergency Shuttle
 2023-04-04:
   ThelemaSSbot:
   - bugfix: Play Internet Sound will no longer show an admins Character name and returns
@@ -45,3 +123,66 @@
   - bugfix: Roundend Report properly lists cultist names if the cult failed and didn't
       summon Narsie
   - bugfix: Ratvarian no longer has a popcorn icon
+2023-04-05:
+  ThelemaSSbot:
+  - add: Readds tactical pants.
+  - fix: the 9x25mm magazines will no longer be invisible when empty or full
+  - fix: marisa shoes will now build its worn icon using the greyscale config 
+      like sneakers do
+  - balance: Little Timmy's lavaland pizza party has gotten an overhaul to be a bit more interesting.
+  - add: The space ruin "transit_booth.dmm"
+  - spellcheck: Paper biscuits now have more proper spelling and grammar
+  - qol: You now get one spare paper cutter blade in the paper cutter cargo crate.
+  - tweak: You now use right click to cut paper with a paper cutter
+  - fix: You can now remove paper from a paper cutter if you change your mind.
+  - fix: Blushing makes a sound again
+  - qol: The security utility uniform can now be bought in the peacekeeper vendor 
+      rather than only being available in the loadout.
+  - fix: The prey pod ruin no longer has two corpses, only one.
+  - fix: Spells which are only able to be cast on the station can now only be cast on the station
+  - add: Chuunibyou wizards, and chunni granters in the library
+  - add: Medical eyepatches
+  - add: Skyrat exclusive change: reagent containers thrown at people now spill the 
+      portion of contents that don't splash onto the target onto the floor. 
+      (This means direct hits with molotovs now spill onto the floor as well.)
+  - code: Various lighting adjustments
+  - code: The xeno_spawn landmark is now the generic_maintenance_landmark landmark.
+  - fix: Certain midrounds will now check for atmos safety before spawning.
+  - qol: changed mech description to span_notices and just slightly comfier to use.
+  - qol: added tooltips for mech's maintenance mode.
+  - balance: added t4 parts for mauler and dark gygax. And t3 parts for dark honker.
+  - fix: fixed that you can remove capacitor and scanmod from mech without 
+      proper maintenance steps. Now you can't
+  - qol: Rearranged some lights on Void Raptor to eliminate dark spots 
+      around the bar, medbay, and atmospherics
+  - imageadd: Fully resprited the Papakha hats! Also touched up the 
+      (non-frilly) Maid Headband, Christmas Caps, and Security Ushanka, 
+      and moved all Skyrat costume hat icons into a separate file. Please 
+      report relevant issues to the Github!
+  - del: Removed the Kepi and the Black and Red Papakha
+  - balance: reduces the prices of NIFSofts.
+  - qol: The Poem of Communal Souls NIFSoft is now redownloadable for free
+  - balance: Slash wounds no longer clot while dead.
+  - balance: Using ammunition boxes to reload weapons that don't have 
+      removable magazines (e.g. bolt-action rifles, shotguns, revolvers) 
+      now inflicts a click cooldown. If a gun that was affected by this has 
+      a reload that seems too long, please submit an issue report to bring it 
+      to someone's attention.
+  - admin: introduces a proc that places items from a human into a cryo console.
+  - fix: thermo machines can be ctrl dragged again
+  - qol: alt click cycles between min, median & max temperature ranges
+  - refactor: removed useless init code
+  - add: Wall fungus: A new engineering event that requires minimal involvement, 
+      watch out for pesky wall fungus!
+  - add: Wall-eating mushrooms for hydroponics!
+  - add: To replace ashwalkers on icebox, a small band of primitive looking genemodders 
+      and their new camp can now be found in the wastes.
+  - add: A new way to revive people from the dead, currently only attainable inside 
+      the icewalker camp, has been added in the form of smelling salts! Rumor has it that the 
+      stench is so unbearable that even the dead can come back to life to try and avoid it.
+  - del: Ashwalkers (lizards) will no longer appear on icebox.
+  - fix: blink is now a translocation spell
+  - fix: West sided version of red alert fire alarm is now looks normally.
+  - refactor: runechat should be a lot cheaper on the server. I've changed how it 
+      functions, if it behaves weird yell at me please don't just ignore it
+  - fix: QM's now get teleporter access on lowpop, like every other Command does.
